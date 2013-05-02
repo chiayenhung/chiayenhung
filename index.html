@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<script type="text/javascript" src='main.js'></script>
+	<script type="text/javascript" src='lib/jquery-1.8.2.min.js'></script>
+	<link rel="stylesheet" type="text/css" href="customized.css">
+</head>
+<body onload='startup()'>
+	<script type="text/javascript" src="lib/jquery.backstretch.min.js"></script>
+      <script type="text/javascript">
+            $.backstretch("imgs/nyc.png", {speed: 1500});
+      </script>        
+	<div>
+		<div class='link_panel'>
+			<span>link panel</span>
+		</div>			
+		<div class="mainDisplay">
+				<ul class='sliders' id='sliders'>
+					<li class='slider'>
+						<span class='bigFont'>SKILLS</span></br></br>
+						<span>
+							ComputerLanguage: C, C++, MATLAB, JAVA, HTML5, Perl, PHP, Javascript, MySQL, Python, CSS3, AJAX, backbone.js, Jquery Mobile, Phonegap, Sencha and VHDL
+							Operate System: MS Windows, Linux, iOS
+							IDE: Eclipse, Visual Studio
+							Version Control: Git, SVN
+						</span>
+					</li>
+					<li class='slider'>
+						<span class='bigFont'>EDUCATION</span></br></br>
+						<span>
+							New York University, New York, NY Courant Institute of Mathematics Science Masters of Science Degree in Computer Science, Jan 2013
+							National Taipei University, Taipei, Taiwan Bachelor of Computer Science Information Engineering, June 2008
+						</span>
+					</li>
+					<li class='slider'>
+						<span class='bigFont'>WORK EXPERIENCE</span></br></br>
+						<span>
+							Software Developer Internship, App Uprising Inc., New York, September 2012-present (Python, CSS3, HTML5, Javascript)
+							Develop the game pages on Facebook and iOS.
+							Data communicate between Front-end and Back-end
+							Fetch the existing Page tag content and abstract the desired data in Back-end server.
+							Refine the UI of the webpages.
+							Website Administrator, New York University Taiwan Student Association, 2012-present • Built and maintained the website
+						</span>
+					</li>
+					<li class='slider'>
+						<span class='bigFont'>PROJECT</span></br></br>
+						<span>
+							Replicated Concurrency Control and Recovery, 2012(Java/JDBC)
+							Control concurrency transaction via Two Phase Locking Protocol.
+							Improve fault tolerant by Available Copies Approach.
+							Prevent concurrency transaction deadlock.
+							Execution of Instant Delivery of H.264 Images in the Network of 802.16e, 2007(MATLAB, C++)
+							Produced packets in the Application, Transport, Network and Data Link Layer and related protocols.
+							Simulated situations between senders and receivers.
+							Contrasted the videos after receiving with objective method in PSNR and subjective method in vision.
+						</span>
+					</li>
+				</ul>
+		</div>
+		<div class='btnContainer'>
+			<button type="button" id='rightBtn' onclick='slideRight()'></button>
+			<button type="button" id='leftBtn' onclick='slideLeft()'></button>
+		</div>
+	</div>
+</body>
+</html>

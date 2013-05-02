@@ -1,0 +1,58 @@
+.mainDisplay{
+	margin-right: auto;
+	margin-left: auto;
+	/*background-color: yellow;*/
+	/*min-width: 200px;
+	max-width: 300px;
+	height: 200px;*/
+	text-align: center;
+	overflow: hidden;
+}
+
+.link_panel{
+	margin-left: auto;
+	margin-right: auto;
+	height: 100px
+}
+
+.sliders{
+	/*margin-left: -540px;*/
+	margin-top: 0px;
+	/*width: 1200px;*/
+}
+
+.slider{
+	list-style-type: none;
+	display: inline-block;
+	height: 300px;
+	width: 500px;
+	color: white;
+	vertical-align: top;
+	/*background-color: yellow;*/
+}
+
+.btnContainer{
+	margin-right: auto;
+	margin-left: auto;
+	width: 300px;
+}
+
+#rightBtn{
+	float: left;
+	background: url('imgs/arrow_left.png');
+	background-size: cover;
+	background-color: #D0D0D0;
+}
+
+#leftBtn{
+	float: right;
+	background: url('imgs/arrow_right.png');
+	background-size: cover;
+	background-color: #D0D0D0;
+}
+
+button{
+	width: 30px;
+	height: 30px;
+	border-radius:50px;
+}
